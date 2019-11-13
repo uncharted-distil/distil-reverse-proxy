@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t docker.uncharted.software/distil-reverse-proxy .
+docker build --no-cache -t docker.uncharted.software/distil-reverse-proxy .
